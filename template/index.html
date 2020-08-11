@@ -1,0 +1,19 @@
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <table>
+    <form method="POST" action="" >
+      {% csrf_token %}
+      {{ form.as_table }}
+    </form>
+    </table>
+  </div>
+  <div class="btn btn-success">
+    <button class="btn btn-success" type="submit" placeholder="Submit">submit</button>
+  </div>
+  </body>
+</html>
